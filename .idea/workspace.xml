@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2fdecae-c2e2-4595-8fe5-bd7313de437e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru99/nosov/mockquizapp/MockQuizApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru99/nosov/mockquizapp/gui/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru99/nosov/mockquizapp/gui/GUITest.java" afterDir="false" />
+    <list default="true" id="d2fdecae-c2e2-4595-8fe5-bd7313de437e" name="Changes" comment="Add Components and content to pane;&#10;need to arrange content and fix checkboxes to radiobutton's">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru99/nosov/mockquizapp/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru99/nosov/mockquizapp/gui/GUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +22,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -77,6 +80,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MockQuizApp" />
+        <item itemvalue="Application.MockQuizApp" />
+        <item itemvalue="Application.MockQuizApp" />
       </list>
     </recent_temporary>
   </component>
@@ -88,8 +93,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666875865479</updated>
-      <workItem from="1666875867218" duration="8673000" />
+      <workItem from="1666875867218" duration="12774000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit&#10;Create frameQuiz, need to add Components">
+      <created>1666885265296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666885265296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Components and content to pane;&#10;need to arrange content and fix checkboxes to radiobutton's">
+      <created>1666885463693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666885463693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +125,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit&#10;Create frameQuiz, need to add Components" />
+    <MESSAGE value="Add Components and content to pane;&#10;need to arrange content and fix checkboxes to radiobutton's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Components and content to pane;&#10;need to arrange content and fix checkboxes to radiobutton's" />
   </component>
 </project>

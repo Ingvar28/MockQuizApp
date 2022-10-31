@@ -4,6 +4,11 @@ import java.awt.*;
 
 public class GUI {
 
+    private static final int frameWidth = 600;
+    private static final int frameHeight = 350;
+
+
+
     private static void addComponentsToPane(Container pane) {
         pane.setLayout(new FlowLayout());
 
@@ -27,13 +32,26 @@ public class GUI {
 
     }
 
-    public void createAndShowGUI() {
-        JFrame frameQuiz = new JFrame();
-        frameQuiz.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frameQuiz.setSize(600,400);
-        addComponentsToPane(frameQuiz.getContentPane());
-        frameQuiz.pack();
-        frameQuiz.setVisible(true);
+    private static Dimension getScreenSize() {
+        Toolkit toolkit = Toolkit.getDefaultToolkit();
+        return toolkit.getScreenSize();
+    }
 
+    private static void getQuizFrame() {
+        JFrame frame = new JFrame();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setBounds(getScreenSize().width/2 - frameWidth/2,
+                getScreenSize().height/2 - frameHeight/2,frameWidth,frameHeight);
+
+        //frame.setIconImage();
+        // addComponentsToPane(frame.getContentPane());
+        // frame.pack();
+        frame.setVisible(true);
+
+
+    }
+
+    public void createAndShowGUI() {
+        getQuizFrame();
     }
 }
